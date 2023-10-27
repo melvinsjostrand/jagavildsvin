@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#board {
+	background-color :#FC9;
+	color: #000;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+#car {
+	width: 80px;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#pig {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	visibility: hidden;
+}
+
+#pigNr, #hitCounter {
+	margin-right: 2em;
+	font-size: 2em;
+}
